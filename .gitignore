@@ -1,1 +1,21 @@
+# Dependencies
 node_modules/
+
+# Compiled TypeScript output
+dist/
+
+# Vitest coverage reports
+coverage/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Log files
+*.log
+npm-debug.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
