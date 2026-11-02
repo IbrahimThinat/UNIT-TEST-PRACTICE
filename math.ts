@@ -29,7 +29,6 @@ export class Calculator {
     return Math.pow(base, exponent);
   }
 
-  // Square root
   squareRoot(number: number): number | Error {
     if (number < 0) {
       return new Error("Cannot calculate square root of a negative number");
@@ -38,8 +37,7 @@ export class Calculator {
     return Math.sqrt(number);
   }
 
-  // Percentage
-  calculatePercentage(number: number, percentage: number): number {
+ calculatePercentage(number: number, percentage: number): number {
     return (number * percentage) / 100;
   }
 }
